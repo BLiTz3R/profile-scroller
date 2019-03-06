@@ -37,7 +37,6 @@ document.getElementById('next').addEventListener('click', nextProfile);
 function nextProfile() {
     const currentProfile = profiles.next().value;
 
-
     document.getElementById('profileDisplay').innerHTML = `
         <ul class="list-group">
             <li class="list-group-item">Name: ${currentProfile.name}</li>
